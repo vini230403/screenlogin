@@ -1,0 +1,66 @@
+.cadastro, .login{
+    max-width: 800px; 
+    margin: 0 auto;
+    margin-top: 130px;
+    padding: 3rem;
+    background-color: #ffffff; 
+    border-radius: 8px; 
+}
+
+.cadastro h2, .login h2 {
+    margin-top: .3rem;
+    margin-bottom: 1.5rem;
+    color: #333333; 
+    font-size: 2rem;
+}
+  
+  
+.form-group {
+    margin-bottom: 1rem;
+    text-align: left; 
+}
+  
+/* Labels */
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #666666; 
+    font-size: 0.9rem;
+}
+  
+/* Inputs */
+.form-group input {
+    width: 100%; 
+    padding: 0.8rem;
+    border: 1px solid #cccccc; 
+    border-radius: 4px; 
+    font-size: 1rem;
+    transition: border-color 0.3s ease; 
+}
+  
+/* Efeito ao focar no input */
+.form-group input:focus {
+    border-color: #333333; 
+    outline: none; 
+}
+  
+/* Botão de envio */
+.submit-button {
+    display: inline-block;
+    width: 25%;
+    margin-left: 630px; 
+    margin-top: .5rem;
+    padding: 0.8rem;
+    background-color: #333333; 
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+  
+/* Efeito ao passar o mouse sobre o botão */
+.submit-button:hover {
+    background-color:rgb(15, 13, 13); 
+}
