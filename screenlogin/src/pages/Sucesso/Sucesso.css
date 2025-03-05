@@ -1,0 +1,11 @@
+.sucesso {
+    max-width: 800px; 
+    margin: 0 auto;
+    margin-top: 360px;
+    padding: 4rem;
+    background-color: #ffffff; 
+    border-radius: 8px;
+    flex: 1; 
+    padding: 2rem;
+    text-align: center;
+}
