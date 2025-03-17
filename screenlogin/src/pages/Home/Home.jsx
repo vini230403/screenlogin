@@ -9,7 +9,7 @@ const Home = () => {
       <Header/>
       <main className="home-main">
         <section className="hero-section">
-          <h1>Bem vindo à Minha Aplicação</h1>
+          <h1>Bem vindo</h1>
           <p>Está é a Home. Faça o seu login ou seu cadastro</p>
           <NavLink to="/cadastrar" className="navlink">Cadastrar</NavLink>
           <NavLink to="/login" className="navlink">Login</NavLink>
